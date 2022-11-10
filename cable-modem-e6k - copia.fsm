@@ -1,0 +1,4 @@
+Value Required CM (\d+)
+
+Start
+  ^\s+Total\s+\d+\s+${CM}\s+\d+\s+\d+\s+\d+\s+\d+\S -> Record

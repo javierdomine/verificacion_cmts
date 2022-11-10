@@ -1,0 +1,14 @@
+e6k: 
+# - hostname: CMT1.CBO1-E6K
+# - hostname: CMT3.CPA1-CBR8
+
+
+cbr8:
+ - hostname: CMT3.RAF1-CBR8
+ - hostname: CMT4.RAF1-CBR8
+ - hostname: CMT3.ROO1-CBR8
+
+c100g:
+# - hostname: CMT1.STA1-C100G
+# - hostname: CMT3.STA1-C100G
+# - hostname: CMT4.STA1-C100G

@@ -1,0 +1,118 @@
+alarms:
+- 'show facility-alarm status '
+- '-bash: show: command not found'
+bgp-nei:
+- show ip bgp neighbor
+- '-bash: show: command not found'
+bgp-summ:
+- show ip bgp summary
+- '-bash: show: command not found'
+cgd-associations:
+- 'show cable cgd-associations '
+- '-bash: show: command not found'
+cm_online:
+- show cable modem summary total | include Total
+- '-bash: include: command not found
+
+  -bash: show: command not found'
+cpu-history:
+- 'show processes cpu history '
+- '-bash: show: command not found'
+cpu-sorted:
+- show processes cpu sorted
+- '-bash: show: command not found'
+deco_flow:
+- show cable host access-group | count 100.110
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+deco_legacy:
+- show cable host access-group | count 10.180
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+default:
+- show ip route 0.0.0.0
+- '-bash: show: command not found'
+device-summary:
+- show cable modem  docsis device-class summary total
+- '-bash: show: command not found'
+dsg-cfr:
+- show cable dsg cfr
+- '-bash: show: command not found'
+environ-alarms:
+- show environment | include alarms
+- '-bash: show: command not found
+
+  -bash: include: command not found'
+fiber-node:
+- show cable fiber-node | include MDD|Fiber-Node
+- '-bash: include: command not found
+
+  -bash: Fiber-Node: command not found
+
+  -bash: show: command not found'
+init:
+- show cable modem | count  init
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+lacp:
+- show lacp neighbor
+- '-bash: show: command not found'
+linecard:
+- show platform
+- '-bash: show: command not found'
+mta:
+- show cable host access-group | count 172.27
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+ofdm-dw:
+- show cable modem wideband | count online
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+partial:
+- show cable modem partial-mode | count online
+- '-bash: count: command not found
+
+  -bash: show: command not found'
+pim-inter:
+- show ip pim interface
+- '-bash: show: command not found'
+pim-nei:
+- show ip pim neighbor
+- '-bash: show: command not found'
+power:
+- show environment power
+- '-bash: show: command not found'
+redundancy:
+- show redundancy
+- '-bash: show: command not found'
+redundancy-lc:
+- show redundancy linecard all
+- '-bash: show: command not found'
+running:
+- show running-config
+- '-bash: show: command not found'
+sip:
+- show cable host access-group | count 10.41|10.45|10.35
+- '-bash: count: command not found
+
+  -bash: 10.45: command not found
+
+  -bash: 10.35: command not found
+
+  -bash: show: command not found'
+summary:
+- show cable modem summary total
+- '-bash: show: command not found'
+version:
+- show version
+- '-bash: show: command not found'
+wideband:
+- show cable modem wideband | count online
+- '-bash: count: command not found
+
+  -bash: show: command not found'

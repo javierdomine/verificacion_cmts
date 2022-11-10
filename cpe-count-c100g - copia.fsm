@@ -1,0 +1,4 @@
+Value Required CPE (\d+)
+
+Start
+  ^Count Line: ${CPE} -> Record

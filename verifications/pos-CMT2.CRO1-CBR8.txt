@@ -1,0 +1,74 @@
+show cable modem summary total | include Total
+-bash: include: command not found
+-bash: show: command not found
+show cable host access-group | count 10.180
+-bash: count: command not found
+-bash: show: command not found
+show cable host access-group | count 100.110
+-bash: count: command not found
+-bash: show: command not found
+show cable host access-group | count 172.27
+-bash: count: command not found
+-bash: show: command not found
+show cable host access-group | count 10.41|10.45|10.35
+-bash: count: command not found
+-bash: 10.45: command not found
+-bash: 10.35: command not found
+-bash: show: command not found
+show processes cpu sorted
+-bash: show: command not found
+show processes cpu history 
+-bash: show: command not found
+show cable modem partial-mode | count online
+-bash: count: command not found
+-bash: show: command not found
+show cable modem | count  init
+-bash: count: command not found
+-bash: show: command not found
+show cable modem wideband | count online
+-bash: count: command not found
+-bash: show: command not found
+show platform
+-bash: show: command not found
+show environment power
+-bash: show: command not found
+show environment | include alarms
+-bash: show: command not found
+-bash: include: command not found
+show facility-alarm status 
+-bash: show: command not found
+show redundancy
+-bash: show: command not found
+show redundancy linecard all
+-bash: show: command not found
+show cable cgd-associations 
+-bash: show: command not found
+show cable modem summary total
+-bash: show: command not found
+show cable modem  docsis device-class summary total
+-bash: show: command not found
+show cable modem wideband | count online
+-bash: count: command not found
+-bash: show: command not found
+show cable dsg cfr
+-bash: show: command not found
+show ip route 0.0.0.0
+-bash: show: command not found
+show ip bgp neighbor
+-bash: show: command not found
+show ip bgp summary
+-bash: show: command not found
+show lacp neighbor
+-bash: show: command not found
+show ip pim interface
+-bash: show: command not found
+show ip pim neighbor
+-bash: show: command not found
+show version
+-bash: show: command not found
+show cable fiber-node | include MDD|Fiber-Node
+-bash: include: command not found
+-bash: Fiber-Node: command not found
+-bash: show: command not found
+show running-config
+-bash: show: command not found

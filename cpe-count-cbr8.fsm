@@ -1,0 +1,4 @@
+Value Required CPE (\d+)
+
+Start
+  ^Number of lines which match regexp = ${CPE} -> Record

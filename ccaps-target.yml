@@ -1,0 +1,16 @@
+e6k: 
+# - hostname: ARSSSFC0CMT002
+ - hostname: CMT1.STF1-E6K
+ - hostname: CMT3.STF1-E6K
+ - hostname: CMT4.STF1-E6K
+cbr8:
+# - hostname: ARCCCOG0CMT001
+# - hostname: ARXXARG0CMT002
+# - hostname: ARXXARG0CMT003
+# - hostname: ARXXARG0CMT004
+# - hostname: CMT1.BZA1-CBR8
+c100g:
+#  - hostname: CMT1.PIN1-C100G
+#  - hostname: CMT2.CIP1-C100G
+# - hostname: CMT4.STA1-C100G
+

@@ -1,0 +1,4 @@
+Value Required CPE (\d+)
+
+Start
+  ^Piped Line Count: ${CPE} -> Record
